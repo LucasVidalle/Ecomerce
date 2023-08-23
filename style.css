@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+
+.all-content{
+    padding: 2rem 7.5rem 9.4375rem 5.6875rem;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3.5rem;
+}
+
+header{
+    display: flex;
+    background-color: gold;
+}
+
+.gm2{
+    width: 11.3125rem;
+    height: 4.1875rem;
+}
+
+.header-options{
+    margin: auto 0;
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+}
+
+.header-options img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
