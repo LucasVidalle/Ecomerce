@@ -1,17 +1,17 @@
 body{
     background-color: black;
-}
-
-.all-content{
     padding: 2rem 7.5rem 9.4375rem 5.6875rem;
     flex-direction: column;
     align-items: flex-end;
-    gap: 3.5rem;
+}
+
+.all-content{
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 header{
     display: flex;
-    background-color: gold;
 }
 
 .gm2{
@@ -31,3 +31,53 @@ header{
     width: 1.5rem;
 }
 
+.main{
+    gap: 3.5rem;
+}
+
+h2{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    padding-top: 3.5rem;
+}
+
+.part1-2{
+    width: 17.8125rem;
+    height: 18.30rem;
+}
+
+.cart-part3{
+    display: flex;
+    height: 3.70rem;
+    width: 17.8125rem;
+}
+
+.part-card-1{
+    background-color: gold;
+    height: 9.15rem;
+    width: 17.8125rem;
+    border-radius: 0.625rem 0.625rem 0rem 0rem;
+}
+
+.part-card-2{
+    background-color: aqua;
+    height: 9.15rem;
+    width: 17.8125rem;
+    border-radius: 0rem 0rem 0rem 0.6125rem;
+}
+
+.part-card-3{
+   background-color: orange;
+   height: 3.70rem;
+   width: 13.36rem; 
+}
+
+.button-cart{
+    background-color: yellowgreen;
+    height: 3.70rem;
+    width: 4.45rem;
+}
