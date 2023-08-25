@@ -45,39 +45,35 @@ h2{
     padding-top: 3.5rem;
 }
 
-.part1-2{
+.part1{
+    background-color: #FFF;
     width: 17.8125rem;
     height: 18.30rem;
+    border-radius: 0.625rem 0.625rem 0rem 0.625rem;
+    justify-content: center;
 }
 
-.cart-part3{
+#llave-inglesa{
+    padding-left: 40px;
+}
+
+.cart-part2{
     display: flex;
     height: 3.70rem;
     width: 17.8125rem;
 }
 
-.part-card-1{
-    background-color: gold;
-    height: 9.15rem;
-    width: 17.8125rem;
-    border-radius: 0.625rem 0.625rem 0rem 0rem;
-}
-
 .part-card-2{
-    background-color: aqua;
-    height: 9.15rem;
-    width: 17.8125rem;
-    border-radius: 0rem 0rem 0rem 0.6125rem;
-}
-
-.part-card-3{
-   background-color: orange;
+   background-color: #FFF;
    height: 3.70rem;
-   width: 13.36rem; 
+   width: 13.36rem;
+   border-radius: 0rem 0rem 0.6125rem 0.6125rem; 
 }
 
 .button-cart{
-    background-color: yellowgreen;
+    background-color: gold;
     height: 3.70rem;
     width: 4.45rem;
+    border-radius: 0rem 0.6125rem 0rem 0rem;
 }
+
