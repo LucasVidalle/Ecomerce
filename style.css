@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #222;
     padding: 2rem 7.5rem 9.4375rem 5.6875rem;
     flex-direction: column;
     align-items: flex-end;
@@ -41,6 +41,7 @@ header{
     height: 18.30rem;
     border-radius: 0.625rem 0.625rem 0rem 0.625rem;
     justify-content: center;
+    padding-bottom: 6px;
 }
 
 h2{
@@ -70,6 +71,19 @@ h2{
     font-style: normal;
     font-weight: 400;
     line-height: 180%;
+    opacity: 0.7;
+}
+
+.previous-price{
+    text-align: right;
+    color: #808080;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 74%;
+    text-decoration: line-through;
+    padding-right: 30px;
 }
 
 .cart-part2{
@@ -83,16 +97,43 @@ h2{
    height: 3.70rem;
    width: 13.36rem;
    border-radius: 0rem 0rem 0.6125rem 0.6125rem; 
+   margin-top: -1px;
 }
 
 .button-cart{
-    background-color: gold;
     height: 3.70rem;
     width: 4.45rem;
     border-radius: 0rem 0.6125rem 0rem 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    border: none;
+    background-color: transparent;
+}
+
+.button-cart::after{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    width: 25px;
+    height: 50px;
+    top: 0px;
+    right: -1px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px -15px 0 -0.3px #FFF;
+}
+
+.actual-price{
+    color: var(--red, #941B0C);
+    text-align: right;
+    font-family: Rubik;
+    font-size: 2.6875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0;
+    padding-right: 30px;
 }
 
 #stillson{
