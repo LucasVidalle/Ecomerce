@@ -45,7 +45,7 @@ h2{
     padding-top: 3.5rem;
 }
 
-.part1{
+.card-section1{
     background-color: #FFF;
     width: 17.8125rem;
     height: 18.30rem;
@@ -55,17 +55,22 @@ h2{
     position: relative;
 }
 
-#stillson{
+.ofert1{
+    background-color: #FFD100;
+}
+
+.stillson{
     padding-left: 40px;
 }
 
-#label{
+.label{
     position: absolute;
     right: -15px;
+    top: 0;
 }
 
-.part1 svg text{
-    color: #000000;
+.label-ofert svg text{
+    color: #FFF;
     text-align: center;
     font-family: 'Rubik', sans-serif;
     font-size: 1.5rem;
@@ -105,18 +110,22 @@ h2{
     padding-right: 30px;
 }
 
-.cart-part2{
+.section-below{
     display: flex;
     height: 3.70rem;
     width: 17.8125rem;
 }
 
-.part-card-2{
+.card-section2{
    background-color: #FFF;
    height: 3.70rem;
    width: 13.36rem;
    border-radius: 0rem 0rem 0.6125rem 0.6125rem; 
    margin-top: -1px;
+}
+
+.ofert2{
+    background-color: #FFD100;
 }
 
 .button-cart{
@@ -143,6 +152,10 @@ h2{
     box-shadow: 0px -15px 0 -0.3px #FFF;
 }
 
+.ofert-button::after{
+    box-shadow: 0px -15px 0 -0.3px #FFD100;
+}
+
 .actual-price{
     color: var(--red, #941B0C);
     text-align: right;
@@ -155,6 +168,28 @@ h2{
     padding-right: 30px;
 }
 
+.news-card{
+    width: 36.875rem;
+    height: 17.4375rem;
+    background-color: #FFF;
+}
 
+.news-content{
+    display: flex;
+}
 
+.news-footer{
+    margin-top: -1px;
+    background-color: gold;
+    width: 36.875rem;
+    display: flex;
+    justify-content: space-around;
+}
 
+.order{
+    display: flex;
+}
+
+.news-button-cart{
+    display: flex;
+}
