@@ -35,6 +35,11 @@ header{
     gap: 3.5rem;
 }
 
+.container-cards{
+    display: flex;
+    flex-direction: row;
+}
+
 h2{
     color: #FFF;
     font-family: 'Inter', sans-serif;
