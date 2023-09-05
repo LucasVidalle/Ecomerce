@@ -38,6 +38,7 @@ header{
 .container-cards{
     display: flex;
     flex-direction: row;
+    gap: 20px;
 }
 
 h2{
