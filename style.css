@@ -182,11 +182,34 @@ h2{
 
 .news-content{
     display: flex;
+    height: 13.5675rem;
+}
+
+.news-image{
+    display: flex;
+    align-items: center;
+}
+
+.info-news{
+    margin-top: 1.81rem;
+    margin-bottom: 8.25rem;
+}
+
+.assessment{
+    display: flex;
+    align-items: center;
+}
+
+.punctuation{
+    margin: 0px;
+    display: flex;
+    align-items: center;
 }
 
 .news-footer{
     margin-top: -1px;
     background-color: gold;
+    height: 3.87rem;
     width: 36.875rem;
     display: flex;
     justify-content: space-around;
@@ -198,4 +221,14 @@ h2{
 
 .news-button-cart{
     display: flex;
+}
+
+.truck{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.bag-black{
+    width: 1.5rem;
+    height: 1.5rem;
 }
