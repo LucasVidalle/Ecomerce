@@ -66,7 +66,10 @@ h2{
 }
 
 .stillson{
-    padding-left: 40px;
+    width: 200px;
+    display: flex;
+    padding-left: 42px;
+    padding-top: 5px;
 }
 
 .label{
@@ -174,15 +177,11 @@ h2{
     padding-right: 30px;
 }
 
-.news-card{
-    width: 36.875rem;
-    height: 17.4375rem;
-    background-color: #FFF;
-}
-
 .news-content{
+    background-color: #FFF;
     display: flex;
     height: 13.5675rem;
+    border-radius: 0.625rem 0.625rem 0rem 0rem;
 }
 
 .news-image{
@@ -191,8 +190,18 @@ h2{
 }
 
 .info-news{
-    margin-top: 1.81rem;
-    margin-bottom: 8.25rem;
+    padding-left: 1rem;
+}
+
+.name-of-products-news{
+    color: var(--black, #000);
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: capitalize;
+    margin-right: 1rem;
 }
 
 .assessment{
@@ -208,19 +217,36 @@ h2{
 
 .news-footer{
     margin-top: -1px;
-    background-color: gold;
+    background-color: red;
     height: 3.87rem;
     width: 36.875rem;
     display: flex;
     justify-content: space-around;
+    border-radius: 0rem 0rem 0.625rem 0.625rem;
 }
 
 .order{
     display: flex;
+    align-items: center;
+    gap: 0.94rem;
+    color: var(--black, #000);
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
 }
 
 .news-button-cart{
     display: flex;
+    align-items: center;
+    gap: 0.94rem;
+    color: var(--black, #000);
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
 }
 
 .truck{
