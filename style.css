@@ -35,7 +35,13 @@ header{
     gap: 3.5rem;
 }
 
-.container-cards{
+.container{
+    display: grid;
+    grid-template-columns: 17.8125rem 17.8125rem 17.8125rem 17.8125rem;
+    gap: 20px;
+}
+
+.container-news{
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -117,6 +123,8 @@ h2{
     line-height: 74%;
     text-decoration: line-through;
     padding-right: 30px;
+    margin-bottom: 0px;
+    margin-top: 37px;
 }
 
 .section-below{
@@ -147,6 +155,7 @@ h2{
     position: relative;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .button-cart::after{
@@ -192,12 +201,7 @@ h2{
 .stillson-news{
     padding-left: 1.39rem;
     padding-right: 1.36rem;
-    width: 5.90363rem;
-}
-}
-
-.info-news{
-    padding-left: 1rem;
+    width: 8.5rem;
 }
 
 .name-of-products-news{
@@ -209,6 +213,7 @@ h2{
     line-height: 120%;
     text-transform: capitalize;
     margin-right: 1rem;
+    margin-bottom: 0rem;
 }
 
 .assessment{
@@ -222,14 +227,69 @@ h2{
     align-items: center;
 }
 
+.points{
+    padding-left: 0.91rem;
+    color: #808080;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.875rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 100%; 
+}
+
+.identifier-number-news{
+    margin-top: 0rem;
+    padding-top: 1.88rem;
+    color: #808080;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 180%;
+    margin-bottom: 0rem;
+}
+
+.prices-news{
+    margin-top: 0.7rem;
+}
+
+.previous-price-news{
+    display: flex;
+    justify-content: end;
+    color: #808080;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 74%;
+    text-decoration: line-through;
+    padding-right: 1rem;
+    margin: 0rem;
+}
+
+.actual-price-news{
+    display: flex;
+    justify-content: end;
+    color: var(--red, #941B0C);
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.6875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    padding-right: 1rem;
+    margin: 0rem;
+}
+
 .news-footer{
     margin-top: -1px;
-    background-color: red;
+    background-color: #F2F2F2;
     height: 3.87rem;
     width: 36.875rem;
     display: flex;
     justify-content: space-around;
     border-radius: 0rem 0rem 0.625rem 0.625rem;
+    cursor: pointer;
+    border: none;
 }
 
 .order{
